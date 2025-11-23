@@ -262,8 +262,8 @@ const App = () => {
       {/* HERO SECTION */}
       <section id="inicio" className="relative min-h-screen flex items-center justify-center text-center px-4 pt-20">
         <div className="absolute inset-0 z-0">
-          <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1920&q=80" className="w-full h-full object-cover" alt="Hemer House Hero" />
-          <div className="absolute inset-0 bg-gray-900/70"></div>
+         {/* LOGO ACTIVADO */}
+             <img src="/logo.png" className="h-12 w-auto transition-transform group-hover:scale-105" alt="Hemer House Logo" />
         </div>
         <div className="relative z-10 text-white max-w-5xl mx-auto">
           <div className="inline-flex items-center gap-2 bg-amber-600/20 border border-amber-500/50 rounded-full px-4 py-1 mb-8 backdrop-blur-md">
